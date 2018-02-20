@@ -83,7 +83,7 @@ for(var i = 0 , len = callsList0812.length ; i < len ; i++){
 			 }
 			}
 
-	//addValueToList ( callsList0812[i].number , callsList0812[i] ) ; 
+
 }
 
 
