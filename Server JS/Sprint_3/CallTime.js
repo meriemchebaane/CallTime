@@ -94,48 +94,7 @@ for(var i = 0 , len = callsList0812.length ; i < len ; i++){
 	var testdata_allContact = [];
 	var data = [] ;
 	var data_without = [];
-	var data_without_allContact = [];
-	/* for ( var i =0 , len = callsList0812.length ; i < len ; i++)
-		{       
-		  if(typeof callsList0812_filtred[i] !== 'undefined' )
-			{
-			   // console.log(callsList0812_filtred[i]);
-				data.push(callsList0812_filtred[i]);
-			}
-			else
-			{
-				console.log("index is : "+i);
-			}
-		}
-		data.forEach(item => console.log( item.name));
-	for (var i=0; i < 20; i++){
-		var ran_num = Math.floor(Math.random() * (data.length - 0 + 1));
-		{
-			if(typeof callsList0812_filtred[ran_num] !== 'undefined' )
-			  {
-				
-				testdata.push(data[ran_num]);
-				data_without = _.without(data, data[ran_num]);
-			  }
-		      }
-	    }
 	
-	console.log(callsList0812_filtred);
-	console.log("~~~~~~~~~~~~~~~~~~~~~~~data~~~~~~~~~~~~~~~~~~~~~~~~~~")
-	console.log(data);
-	console.log("*************************test data***************************");
-	console.log(testdata);
-	console.log("######################data without###########################");
-	console.log(data_without);
-	console.log("######################data filtred by names###########################");
-	/*
-	var flags = [], output = [], l = testdata.length, i;
-		for( i=0; i<l; i++) {
-			if( flags[testdata[i].name]) continue;
-			flags[testdata[i].name] = true;
-			output.push({name : testdata[i].name , score : 0 , occurence : 0});
-		}
-	*/	
 		var flags_2 = [], output_2 = [], l_2 = callsList0812_filtred.length, i_2;
 		for( i_2=0; i_2<l_2; i_2++) {
 			if( flags_2[callsList0812_filtred[i_2].name]) continue;
