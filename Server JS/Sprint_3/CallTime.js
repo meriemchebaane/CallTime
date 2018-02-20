@@ -77,7 +77,7 @@ for(var i = 0 , len = callsList0812.length ; i < len ; i++){
 			 }
 			 else
 			 {
-				//callsList0812_filtred.push({name : callsList0812[i].number , type : callsList0812[i].callType ,  duration : parseInt(callsList0812[i].duration)}) ;
+				callsList0812_filtred.push({name : callsList0812[i].number , type : callsList0812[i].callType ,  duration : parseInt(callsList0812[i].duration)}) ;
 
 
 			 }
