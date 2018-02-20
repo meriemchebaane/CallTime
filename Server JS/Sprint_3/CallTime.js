@@ -136,8 +136,7 @@ for(var i = 0 , len = callsList0812.length ; i < len ; i++){
 		});
 		console.log("######################output data###########################");
 		console.log(output_2);
-		//console.log("######################data without###########################");
-		//console.log(data_without_allContact);
+	
 		console.log("######################data test###########################");
 		console.log(testdata_allContact);
 		console.log("######################complete###########################");
