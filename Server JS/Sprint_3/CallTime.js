@@ -167,7 +167,6 @@ for(var i = 0 , len = callsList0812.length ; i < len ; i++){
 					if(index !=-1)
 						{
 							if (pred[i]==expected[i]){
-								//output[testdata.name[i]].score++;
 								
 								
 									output_2[index].score++;
