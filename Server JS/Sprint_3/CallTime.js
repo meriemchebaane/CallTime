@@ -143,18 +143,7 @@ for(var i = 0 , len = callsList0812.length ; i < len ; i++){
 		console.log("######################complete###########################");
 		console.log(callsList0812_filtred);
 
-		/*
-		output.forEach(element => {
-			var counter = 0 ;
-			for(var i = 0 , len = testdata.length ; i < len ; i++)
-			{
-				if (testdata[i].name == element.name) counter++;
-			}
-			element.occurence = counter ;
-		});
-		console.log("######################output data###########################");
-		console.log(output);*/
-		
+
 
 		if (cluster.isWorker) {
 			// put your code here
