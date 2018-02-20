@@ -46,7 +46,6 @@ var ref_contatcts = admin.database().ref('contacts');
 var ref_calls = admin.database().ref('calls');
 
 process.argv.forEach(function (val, index, array) {
-	//console.log(index + ': ' + val);
 	if(index>=2)
 	{
 		argument_s.push(val);
