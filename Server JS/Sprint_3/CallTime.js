@@ -60,11 +60,8 @@ function function_1(){
 	}
 	
 });}
-/*function addValueToList(key, value) {
 
-		    map[key] = map[key] || [];
-		    map[key].push(value);
-		}*/
+
 
 function function_2(){
 
