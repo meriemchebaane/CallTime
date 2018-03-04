@@ -1,0 +1,18 @@
+About the mobile application:
+
+•	We used the both of the Call.Logs and the contacts provider specified by the android sdk in order to get the contacts list.
+•	We also used the broadcast receiver to manage and filter the incoming calls according to the actual time slot and the incoming data from the server. We also should specify that a configuration to the firebase database were made in order to communicate with it.
+•	for the display all the final contacts list we used List Adapters.
+
+About the server:
+
+We made a nodejs server in which we created two main files named index.js and CallTime.js.
+The index.js will pass arguments to the CallTime.js using the promises as an asynchronous method to invoke the algorithm for each one of the 5 slots of the day and for each day of the week. These calls will be made periodically each week with ScheduleJob library. 
+The CallTime.js will be waiting for the index calls: if invoked it will start by getting all the calls for the given slot. Then with a numerous filtering operation we obtain our dataset which we will train using the data forest algorithm using the random-forest-classifier library and then we will inject it with the list of the callers of that time slot: this list should contain all the callers of a given slot.
+The final result will be a list with expected call types and a certainty threshold indicating if the program has successfully expected the result or not.
+The library’s we used in our server are the followings :
+ 
+•	"array-unique": "^0.3.2",
+•	"firebase-admin": "^5.9.0",
+•	"node-schedule": "^1.3.0",
+•	"random-forest-classifier": "^0.6.0"

@@ -1,0 +1,1 @@
+The deployment should be done following the following steps :
