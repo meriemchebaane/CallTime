@@ -2,7 +2,7 @@ About the mobile application:
 
 •	We used the both of the Call.Logs and the contacts provider specified by the android sdk in order to get the contacts list.
 •	We also used the broadcast receiver to manage and filter the incoming calls according to the actual time slot and the incoming data from the server. We also should specify that a configuration to the firebase database were made in order to communicate with it.
-•	for the display all the final contacts list we used List Adapters.
+•	for the display of all the final contacts list we used List Adapters.
 
 About the server:
 
