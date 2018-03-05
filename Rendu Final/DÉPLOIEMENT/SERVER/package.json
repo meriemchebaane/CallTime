@@ -1,0 +1,25 @@
+{
+  "name": "call_time",
+  "version": "1.0.0",
+  "description": "the smart calling application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "call",
+    "time"
+  ],
+  "author": "ibrahim abdelkader",
+  "license": "ISC",
+  "devDependencies": {
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "array-unique": "^0.3.2",
+    "firebase-admin": "^5.9.0",
+    "node-cron": "^1.2.1",
+    "node-schedule": "^1.3.0",
+    "random-forest-classifier": "^0.6.0"
+  }
+}
